@@ -1,0 +1,227 @@
+
+#particles-js {
+    position: relative;
+    top: 0%;
+    width: 100%;
+    height: 95vh;
+    background: #262626;
+    border-bottom: 1px solid #353535;
+}
+
+#title {
+    position: absolute;
+    text-align: center;
+    top: 35vh;
+    width: 100%;
+}
+
+#title h1 {
+    color: whitesmoke;
+    font-family: 'Ubuntu:300', 'Ubuntu', sans-serif;
+    font-weight: 100;
+}
+
+#title small {
+    color: #fadadd;
+}
+
+#section-info h3 {
+    color: whitesmoke;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 100;
+}
+
+#section-info {
+    background-color: #202020;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    color: white;
+}
+
+#section-skills {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-shadow: inset 0px 5px 20px -10px #000,
+    inset 0px -5px 20px -10px #000;
+}
+
+#section-resume {
+    background-color: #202020;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+#laravel-img {
+    padding-right: 100px;
+}
+.about-profile {
+    margin: 20px 0;
+    position: relative;
+}
+
+.about-title {
+    color: #fadadd;
+    font-weight: 700;;
+    position: relative;
+    width: 120px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.black-white img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: filter 600ms ease;
+    -webkit-transition: -webkit-filter 600ms ease;
+}
+
+.black-white img:hover {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+.padding-skills {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.about-item {
+    margin-left: 10px;
+}
+
+.hide {
+    display: none;
+}
+
+.thumbnail img {
+    border: 8px solid #262626;
+    box-shadow: 0 0 30px rgba(0,0,0,.2);
+}
+
+.skills-img {
+    max-width: 100%;
+    height: 200px;
+}
+
+.skills-text {
+    color: whitesmoke;
+    font-family: 'Ubuntu:300', 'Ubuntu', sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+
+.imgfluid {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: 'Open Sans', Arial,sans-serif; 
+}
+
+body {
+    margin: 0;
+    font-size: 14px;
+    background-color: #262626;
+    font: Helvetica, Arial,sans-serif;
+  }
+  
+canvas {
+    display: block;
+}
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 50px;
+}
+
+ul.timeline > li:before {
+    content: ' ';
+    background: #ffffff;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #fadadd;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+.timeline-title {
+    color: #fadadd;
+    font-family: 'Ubuntu:300', 'Ubuntu', sans-serif;
+}
+
+.timeline-bigtitle {
+    padding-left: 50px;
+    color: #ffffff;
+    font-family: 'Ubuntu:300', 'Ubuntu', sans-serif;
+}
+
+.timeline-content {
+    font-family: 'Open Sans', Helvetica, Arial,sans-serif; 
+}
+
+.timeline-date {
+    font-family: 'Open Sans', Helvetica, Arial,sans-serif; 
+    color: #fadadd;
+}
+
+#section-projects h3 {
+    color: whitesmoke;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 100;
+}
+
+#section-projects {
+    border-top: 1px solid #353535;
+    background-color: #202020;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    color: white;
+}
+
+.project-item h6 {
+    color: #fadadd;
+    font-family: 'Ubuntu:300', 'Ubuntu', sans-serif;
+}
+
+.project-item li {
+    border: 1px solid #303030;
+    border-radius: 5%; 
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.laravel {
+    color: orange;
+}
+
+.PHP {
+    color: turquoise;
+}
+
+#github-img-link {
+    margin-top: -75px;
+}
