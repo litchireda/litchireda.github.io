@@ -51,6 +51,24 @@
     padding-top: 25px;
 }
 
+#github-img-link {
+    max-height: 300px;
+    margin-left: 75px;
+}
+
+#hover-img {
+    display: none;
+}
+
+.thumbnail:hover img#init-img {
+    display: none;
+}
+
+.thumbnail:hover img#hover-img {
+    display: block;
+}
+
+
 .about-profile {
     margin: 20px 0;
     position: relative;
@@ -106,9 +124,11 @@
     text-align: center;
 }
 
-.imgfluid {
-    max-width: 100%;
-    height: auto;
+.flex-container {
+    width: 100%;
+    display: inline-flex;
+    align-items: baseline;
+    justify-content: space-between;
 }
 
 ul {
