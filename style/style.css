@@ -83,6 +83,58 @@
     margin-bottom: 5px;
 }
 
+.skill-title {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 100;
+    color: #fadadd;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.skills-bar  li{
+    list-style: none;
+    margin: 15px 0;
+}
+
+.skill-bar-box {
+    display: block;
+    width: 100%;
+    height: 20px;
+    background-color:#262626;
+    overflow: hidden;
+}
+
+.skill-bar-box span{
+    height: 100%;
+    float: left;
+    background-color: #fadadd;
+}
+
+.php-bar {
+    width: 70%;
+}
+
+.node-bar {
+    width: 95%;
+}
+
+.react-bar {
+    width: 75%;
+}
+
+.ruby-py-bar {
+    width: 50%;
+}
+
+.adapt-bar {
+    background-color: #ADF7B6 !important;
+    width: 100%;
+}
+
+#adapt-title {
+    color: #BFFFBC;
+}
+
 .black-white img {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
