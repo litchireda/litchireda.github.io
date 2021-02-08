@@ -3,7 +3,7 @@
     position: relative;
     top: 0%;
     width: 100%;
-    height: 95vh;
+    height: 40vh;
     background: #262626;
     border-bottom: 1px solid #353535;
 }
@@ -11,7 +11,7 @@
 #title {
     position: absolute;
     text-align: center;
-    top: 35vh;
+    top: 10vh;
     width: 100%;
 }
 
