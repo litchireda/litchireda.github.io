@@ -17,7 +17,7 @@
 </head>
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+    <nav id="nav-color-new" class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
         <a class="navbar-brand" href="#">LITCHI Reda</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -27,9 +27,6 @@
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link" href="#section-info">About me</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#section-skills">Skills</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="mailto:litchi.reda@gmail.com?">Contact</a>
@@ -43,9 +40,11 @@
             <div id="particles-js"></div>
             <div id="title">
                 <div class="container">
-                    <h1>Reda Litchi<br><small>
-                            &lt; Web developer/>
-                    </small></h1>
+                    <h1>Reda Litchi</h1>
+                    <h4>
+                        &lt; Web developer/>
+                    </h4>
+                    <a id="resume" href="./assets\LITCHI_REDA_CV.pdf" target="_blank" rel="noopener noreferrer">Download my resume</a>
                 </div>
             </div>
     </header>
@@ -77,38 +76,38 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="skills-bar">
+                    <div class="skills-bar" id="section-skills">
                         <div class="flex-container">
                             <h3>Skills</h3><h6>Level of Experience</h6>
                         </div>
                         <li>
                             <h6 class="skill-title">NodeJS</h6>
                             <span class="skill-bar-box">
-                                <span class="node-bar"></span>
+                                <span class="node-bar empty-bar"></span>
                             </span>
                         </li>
                         <li> 
                             <h6 class="skill-title">ReactJS - VueJS</h6>
                             <span class="skill-bar-box">
-                                <span class="react-bar"></span>
+                                <span class="react-bar empty-bar"></span>
                             </span>
                         </li>
                         <li> 
                             <h6 class="skill-title">Laravel - Symfony - PHP</h6>
                                 <span class="skill-bar-box">
-                                    <span class="php-bar"></span>
+                                    <span class="php-bar empty-bar"></span>
                                 </span>
                         </li>
                         <li> 
                             <h6 class="skill-title">Ruby on Rails - Django</h6>
                             <span class="skill-bar-box">
-                                <span class="ruby-py-bar"></span>
+                                <span class="ruby-py-bar empty-bar"></span>
                             </span>
                         </li>
                         <li> 
-                            <h6 class="skill-title" id="adapt-title">Adaptability to learn new frameworks</h6>
+                            <h6 class="skill-title" id="adapt-title">Ability to learn new frameworks</h6>
                             <span class="skill-bar-box">
-                                <span class="adapt-bar"></span>
+                                <span class="adapt-bar empty-bar"></span>
                             </span>
                         </li>
                     </div>
@@ -149,8 +148,8 @@
                             <h6 class="timeline-title">AppDrag - Fullstack Web Developper</h6>
                             <small class="timeline-date">2019-2020</small>
                             <p class="text-light">Built custom Backend-APIs & Frontends for multiple clients (GoodVibes, LaPlace, HappyPal, LAFAAAC...) in NodeJS. <br/>
-                                Built a VSCode extension and a Command Line Interface, helping clients use AppDrag's features and modify their projects locally. <br/>
-                                Experience talking with clients. </p>
+                                Built a VSCode extension and a <a style="color: #ADF7B6;" href="https://www.npmjs.com/package/appdrag" target="_blank" rel="noopener noreferrer">Command Line Interface npm package</a> helping clients use AppDrag's features and modify their projects locally. <br/>
+                            </p>
                         </li>
                     </ul>
                 </div>
@@ -159,7 +158,7 @@
     </section>
 
     <!-- PROJECTS -->
-    <!-- <section id="section-projects">
+    <section id="section-projects">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -171,26 +170,26 @@
                     <div class="project-item">
                         <ul>
                             <li>
-                                <h6>Flutter App</h6>
-                                <small class="laravel">Laravel</small>
-                                <p class="text-light">Creating a website using Laravel's Framework with a CRUD and many other features such as email validation, administration pages etc.</p>
+                                <h6>vibe findr</h6>
+                                <small class="flutter">Flutter</small>
+                                <p class="text-light">Using LastFM's API and GPS location, a LastFM user can see the statistics of the users around them.</p>
                             </li>
                             <li>
                                 <h6>PiePHP</h6>
                                 <small class="PHP">Object-Oriented Programming PHP</small>
-                                <p class="text-light">Goal of this project was to build a framework similar to Laravel by ourselves.</p>
+                                <p class="text-light">Homemade Laravel-style framework</p>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="black-white">
-                        <a href="https://github.com/litchireda"><img id="github-img-link" class="img-fluid" src="assets/github.png" alt="Github REDALITCHI"></a>
+                        <a href="https://github.com/litchireda" target="_blank" rel="noopener noreferrer"><img id="github-img-link" class="img-fluid" src="assets/github.png" alt="Github REDALITCHI"></a>
                     </div>
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
 <!-- particles.js lib (JavaScript CodePen settings): https://github.com/VincentGarreau/particles.js -->    
     <script src="scripts/particles.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
